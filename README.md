@@ -11,7 +11,8 @@ The first dataset used to train the MLP is located at Artificial-Neural-Networks
 
 We have a problem of classifying three categories.
 The dataset was created by randomly creating 6000 points ((x1, x2) in the plain) inside the square [-2, 2] x [-2, 2] (3000 for the training set and 3000 for the control set).
-Preview of S1-Training-Set.txt: 
+</br>
+Preview of S1-Training-Set 
 ```
    -0.11006832, -1.5221529,   C1
     1.606715,   -1.9961953,   C1
