@@ -59,6 +59,7 @@ Preview of S2-Training-Set:
 5. At the end of each epoch calculate and print the value of the total square training error.
 
 ## How to use the MLP
+
 User should define the following:
 
  - the number of input neurons: for the S1 dataset the number of input neurons should be equal to two, one for each coordinate x1 and x2. 
@@ -66,5 +67,56 @@ User should define the following:
  - the number of neurons of the first hidden layer, 
  - the number of neurons of the second hidden layer and 
  - the type of activation function in the second hidden layer.
+
+### Example 
+      "C:\Program Files\Java\jdk-17.0.1\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\lib\idea_rt.jar=52938:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\chris\Desktop\Artificial-Neural-Networks\bin;C:\Users\chris\Desktop\Artificial-Neural-Networks\JFreeChart\jcommon-1.0.8.jar;C:\Users\chris\Desktop\Artificial-Neural-Networks\JFreeChart\jfreechart-1.5.0.jar application
+
+      -> Select one from the following options by typing :
+
+      (1) For MLP program
+      (2) For k-means program
+      (3) For LVQ program
+      (x) To exit
+
+      -> 1
+
+      -> Please select one from the following by typing:
+
+      (1) For standard execution
+      (2) For multiple execution training
+
+      -> 1
+      To define the architecture of the MLP use the command:
+
+      -> "define -d -K -H1 -H2 -f"
+          -d number of inputs
+          -K number of categories
+          -H1 number of neurons in first hidden level 
+          -H2 number of neurons in the second hidden  level
+          -f activation function for the second hidden level, type t(tahn) or l(linear)
+      -> define -2 -3 -20 -15 -t
+
+      ------------EPOCH 1------------
+      Total Squared Error = 1013.0073
+
+      ------------EPOCH 2------------
+      Total Squared Error = 777.89185
+
+      ------------EPOCH 3------------
+      Total Squared Error = 760.41986
+      
+      ...
+      
+      ------------EPOCH 872------------
+      Total Squared Error = 206.8943
+
+      ------------EPOCH 873------------
+      Total Squared Error = 206.79463
+
+      Generalization Capability Of MLP = 96.73333%
+      
+![MLP_catergorization](https://user-images.githubusercontent.com/25777650/154112836-c9b1e05d-18e2-4e7e-bbed-74e6d1ccaf8e.png)
+
+
 
 ## How to Use the K-means and LVQ Algorithms
