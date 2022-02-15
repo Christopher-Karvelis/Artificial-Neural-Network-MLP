@@ -1,4 +1,4 @@
-# Artificial-Neural-Network
+# Artificial-Neural-Networks
 This is a semester project for the subject "Articial Neural Networks", at the Department of Computer Science & Engineering, University of Ioannina.
 
 ## Purpose
