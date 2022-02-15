@@ -54,7 +54,7 @@ Preview of S2-Training-Set:
 
 ## MLP Algorithm (Define the architecture of MLP)
 1. Created a multi-layer perceptron(MLP) with 2 hidden layers. The neurons of the first hidden layer have the **logistic(σ(u))** activation function, while the neurons of the second hidden layer have the **hyperbolic(tanh(u))** or **linear** activation function. Output neurons have the logistic activation function.
-2. Implemented the gradient descent algorithm and updating the weights per batch of L examples(mini-batches). The network supports (L = 1) online and (l = N) batch update of the weights. 
+2. Implemented the gradient descent algorithm and updating the weights per batch of L points(mini-batches). The network supports online(L = 1) and batch(L = N) update of the weights. 
 3. Load the training and the test set and start training.
 5. At the end of each epoch calculate and print the value of the total square training error.
 
