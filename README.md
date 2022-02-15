@@ -116,7 +116,3 @@ User should define the following:
       Generalization Capability Of MLP = 96.73333%
       
 ![MLP_catergorization](https://user-images.githubusercontent.com/25777650/154112836-c9b1e05d-18e2-4e7e-bbed-74e6d1ccaf8e.png)
-
-
-
-## How to Use the K-means and LVQ Algorithms
