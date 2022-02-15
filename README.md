@@ -12,7 +12,7 @@ The first dataset used to train the MLP is located at Artificial-Neural-Networks
 We have a problem of classifying three categories.
 The dataset was created by randomly creating 6000 points ((x1, x2) in the plain) inside the square [-2, 2] x [-2, 2] (3000 for the training set and 3000 for the control set).
 </br>
-Preview of S1-Training-Set 
+Preview of S1-Training-Set:
 ```
    -0.11006832, -1.5221529,   C1
     1.606715,   -1.9961953,   C1
@@ -37,6 +37,20 @@ Noise was added only to the training set as follows: for each point of the train
 ### S2
 The second dataset used as input for the K-MEANS and LVQ algorithms is located at Artificial-Neural-Networks/S2-Training-Set.txt
 The dataset was created in the same way S1 did but without classifying the points.
+</br>
+Preview of S2-Training-Set:
+
+       0.13456714, -0.077114135
+      -0.21472594, -0.08527754
+       0.15591341,  0.069631815
+       0.014670819, 0.06411773
+      -0.107621655, 0.22532195
+       0.26412588, -0.116445765
+      -0.22791314, -0.044834018
+      -0.07124223, -0.28215548
+       0.2712875,  -0.11488855
+      -0.0253959,  -0.18017158
+       0.20766318, -0.064438686
 
 ## MLP Algorithm (Define the architecture of MLP)
 1. Created a multi-layer perceptron(MLP) with 2 hidden layers. The neurons of the first hidden layer have the **logistic(σ(u))** activation function, while the neurons of the second hidden layer have the **hyperbolic(tanh(u))** or **linear** activation function. Output neurons have the logistic activation function.
