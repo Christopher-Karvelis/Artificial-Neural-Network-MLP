@@ -59,11 +59,12 @@ Preview of S2-Training-Set:
 5. At the end of each epoch calculate and print the value of the total square training error.
 
 ## How to use the MLP
-User should define the following: 
-    - the number of input neurons: for the S1 dataset the number of input neurons should be equal to two, one for each coordinate x1 and x2. 
-    - the number of categories: for the S1 dataset the number of categories is equal to three(C1, C2,C3), 
-    - the number of neurons of the first hidden layer, 
-    - the number of neurons of the second hidden layer and 
-    - the type of activation function in the second hidden layer.
+User should define the following:
+
+ - the number of input neurons: for the S1 dataset the number of input neurons should be equal to two, one for each coordinate x1 and x2. 
+ - the number of categories: for the S1 dataset the number of categories is equal to three(C1, C2,C3), 
+ - the number of neurons of the first hidden layer, 
+ - the number of neurons of the second hidden layer and 
+ - the type of activation function in the second hidden layer.
 
 ## How to Use the K-means and LVQ Algorithms
