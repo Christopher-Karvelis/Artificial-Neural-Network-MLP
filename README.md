@@ -13,16 +13,16 @@ We have a problem of classifying three categories.
 The dataset was created by randomly creating 6000 points ((x1, x2) in the plain) inside the square [-2, 2] x [-2, 2] (3000 for the training set and 3000 for the control set).
 Preview of S1-Training-Set.txt: 
 ```
-              -0.11006832, -1.5221529, C1
-          1.606715, -1.9961953, C1
-          -0.6835481, 1.6608286, C1
-          1.0009558, 1.6722264, C2
-          1.4368737, -1.5106521, C3
-          1.4114754, 0.64198136, C2
-          -1.86043, -0.042966723, C1
-          -1.3685632, 1.7563276, C1
-          -1.3290948, -1.7714477, C1
-          1.5912795, 0.9927237, C2
+   -0.11006832, -1.5221529,   C1
+    1.606715,   -1.9961953,   C1
+   -0.6835481,   1.6608286,   C1
+    1.0009558,   1.6722264,   C2
+    1.4368737,  -1.5106521,   C3
+    1.4114754,   0.64198136,  C2
+   -1.86043,    -0.042966723, C1
+   -1.3685632,   1.7563276,   C1
+   -1.3290948,  -1.7714477,   C1
+    1.5912795,   0.9927237,   C2
 ```
 
 The points(x1, x2) are classified into three categories as follows:
